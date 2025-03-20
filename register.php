@@ -21,7 +21,7 @@
 	</form>
 	<?php
 	//create/insert operation
-	//connect to db - groupbmar
+	//connect to db - groupbmarch
 	include "connectdb.php";
 	//check if user clicked submit
 	if ($_SERVER['REQUEST_METHOD']=='POST') {
