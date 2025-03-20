@@ -1,9 +1,9 @@
 <?php
-	//connect to groupbmarch database
+	//connect to groupbmar database
 	$server = "localhost";
 	$serveraccount = "root";
 	$serverpassword = "";
-	$db = 'groupbmarch';
+	$db = 'groupbmar';
 	//establish connection
 	$connect = mysqli_connect($server, $serveraccount, $serverpassword, $db);
 	//check if not connected

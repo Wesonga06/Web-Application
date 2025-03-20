@@ -12,7 +12,7 @@
 		die(mysqli_connect_error($connect));
 	}
 	//write a query to create a database
-	$query = "CREATE DATABASE groupbmarch";
+	$query = "CREATE DATABASE groupbmar";
 	//execute query
 	$execute = mysqli_query($connect, $query);
 	//check if successfully executed
