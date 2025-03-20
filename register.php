@@ -34,6 +34,7 @@
 		$execute = mysqli_query($connect,$query);
 		//check if successful
 		if ($execute) {
+			//header("Location:display.php");
 			echo "<div>Student added successfully</div>";
 		} else{
 			die(mysqli_error($connect));

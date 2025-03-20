@@ -20,7 +20,14 @@
             }
             button{
                 background-color: lightblue;
+            }
+            a{
                 text-decoration: none;
+                color: white;
+            }
+            .reg{
+                display: block;
+                margin: 10px auto;
             }
         </style>    
 </head>
@@ -61,7 +68,7 @@
                         <a href='delete.php?deleteid=$student_id'>delete</a>
                      </button></td>
                      <td><button>
-                        <a href='update.php'>update</a>
+                        <a href='update.php?updateid=$student_id'>update</a>
                      </button></td>
                 </tr>";
             }
@@ -70,5 +77,6 @@
          }
         ?>
     </table>  
+    <button class="reg"><a href="register.php">Register Student</a></button>
 </body>
 </html>
